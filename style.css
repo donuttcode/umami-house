@@ -588,15 +588,14 @@ img {
 
 .review-card img {
 
-    width: 90px;
-
-    height: 90px;
+    width: 70px;
+    height: 70px;
 
     border-radius: 50%;
 
-    object-fit: cover;
+    display: block;
 
-    margin-bottom: 20px;
+    margin: 0 auto 15px;
 
 }
 
@@ -777,12 +776,6 @@ section {
 .order-btn:hover {
 
     transform: translateX(5px);
-
-}
-
-a {
-
-    -webkit-tap-highlight-color: transparent;
 
 }
 
