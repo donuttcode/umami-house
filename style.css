@@ -780,6 +780,12 @@ section {
 
 }
 
+a {
+
+    -webkit-tap-highlight-color: transparent;
+
+}
+
 /* ==========================
    Mobile Responsive
 ========================== */
@@ -850,11 +856,5 @@ section {
     .section-title {
         font-size: 34px;
     }
-
-}
-
-a {
-
-    -webkit-tap-highlight-color: transparent;
 
 }
