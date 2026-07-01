@@ -96,6 +96,14 @@ nav {
 
 }
 
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
 /* ==========================
    Hero
 ========================== */
@@ -196,7 +204,11 @@ nav {
 
 .btn {
 
-    display: inline-block;
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
 
     padding: 15px 35px;
 
@@ -291,6 +303,8 @@ nav {
     overflow: hidden;
 
     transition: .4s;
+
+    height: 100%;
 
 }
 
@@ -763,5 +777,121 @@ section {
 .order-btn:hover {
 
     transform: translateX(5px);
+
+}
+
+/* ==========================
+   Mobile Responsive
+========================== */
+
+@media (max-width: 768px) {
+
+    nav {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 20px;
+
+    }
+
+    .nav-links {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 18px;
+
+    }
+
+    .hero {
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        padding: 140px 20px 60px;
+
+        gap: 40px;
+
+        min-height: auto;
+
+    }
+
+    .hero-text {
+
+        max-width: 100%;
+
+    }
+
+    .hero-text h1 {
+
+        font-size: 42px;
+
+    }
+
+    .hero-buttons {
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+    }
+
+    .hero-image img {
+
+        width: 100%;
+
+        max-width: 350px;
+
+    }
+
+    .menu-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    #special {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .features-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    #story {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .reviews-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .contact-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+a {
+
+    -webkit-tap-highlight-color: transparent;
 
 }
