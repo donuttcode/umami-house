@@ -565,17 +565,10 @@ img {
 }
 
 .review-card {
-
-    background: #1A1A1A;
-
-    border-radius: 20px;
-
-    padding: 40px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-
-    transition: .4s;
-
 }
 
 .review-card:hover {
@@ -587,16 +580,11 @@ img {
 }
 
 .review-card img {
-
-    width: 70px;
-    height: 70px;
-
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-
     display: block;
-
-    margin: 0 auto 15px;
-
+    margin: 0 auto 20px;
 }
 
 .review-card h3 {
